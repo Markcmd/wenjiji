@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>Wenjiji</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #ffffff; --fg: #1d2330; --dim: #5d6678; --accent: #2f6fed; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #14171f; --fg: #e8ebf2; --dim: #9aa3b5; --accent: #7aa2ff; } }
+    html, body { height: 100%; }
+    body { margin: 0; display: grid; place-items: center; background: var(--bg); color: var(--fg);
+           font: 16px/1.6 -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif; }
+    main { max-width: 28rem; padding: 2rem 1.5rem; text-align: center; }
+    .mark { font-size: 2.5rem; line-height: 1; margin-bottom: 1rem; }
+    h1 { font-size: 1.5rem; margin: 0 0 .75rem; color: var(--accent); }
+    p { margin: .5rem 0; }
+    .dim { color: var(--dim); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark" aria-hidden="true">·</div>
+    <h1>未完成付款</h1>
+    <p>您没有被扣费。请回到 Wenjiji。</p>
+    <p class="dim">想升级时，随时可以在设置页再次点击升级。</p>
+  </main>
+</body>
+</html>
