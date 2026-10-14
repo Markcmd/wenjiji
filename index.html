@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'" />
+  <title>Wenjiji</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #ffffff; --fg: #1d2330; --dim: #5d6678; --accent: #2f6fed; --line: #d9dde6; --warn: #b3261e; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #14171f; --fg: #e8ebf2; --dim: #9aa3b5; --accent: #7aa2ff; --line: #2b3140; --warn: #ff8a80; } }
+    html, body { height: 100%; }
+    body { margin: 0; display: grid; place-items: center; background: var(--bg); color: var(--fg);
+           font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    main { width: 100%; max-width: 28rem; padding: 2rem 1.5rem; box-sizing: border-box; text-align: center; }
+    .mark { font-size: 2.5rem; line-height: 1; margin-bottom: 1rem; }
+    h1 { font-size: 1.5rem; margin: 0 0 .75rem; color: var(--accent); }
+    p { margin: .5rem 0; }
+    .dim { color: var(--dim); font-size: .9rem; }
+    .err { color: var(--warn); }
+    a { color: var(--accent); }
+    [hidden] { display: none !important; }
+
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Wenjiji</h1>
+    <p>A Chrome extension that helps you learn English vocabulary while you read the web.</p>
+    <p class="dim"><a href="privacy.html">Privacy Policy</a></p>
+  </main>
+</body>
+</html>
