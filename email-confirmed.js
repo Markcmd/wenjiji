@@ -8,7 +8,7 @@
     document.getElementById("ok").hidden = true;
     document.getElementById("bad").hidden = false;
     if (err === "otp_expired") {
-      document.getElementById("bad-msg").textContent = "This confirmation link has expired or was already used.";
+      document.getElementById("bad-msg").textContent = "This link has expired or was already used.";
     }
   }
 })();
